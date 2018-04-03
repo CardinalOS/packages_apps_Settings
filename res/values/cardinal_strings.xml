@@ -8,4 +8,7 @@
     <!-- CardinalOS version -->
     <string name="cardinal_version">CardinalOS version</string>
 
+    <!-- Cardinal Keeper -->
+    <string name="maintainer">Cardinal Keeper</string>
+
 </resources>
