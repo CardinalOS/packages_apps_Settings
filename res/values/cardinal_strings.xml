@@ -23,4 +23,8 @@
     <string name="max_refresh_rate_title">Maximum refresh rate</string>
     <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+
 </resources>
