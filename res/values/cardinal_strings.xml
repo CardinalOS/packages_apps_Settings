@@ -14,4 +14,7 @@
     <!-- AOSP Revision -->
     <string name="aosp_revision">AOSP Revision</string>
 
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Peak refresh rate</string>
+
 </resources>
