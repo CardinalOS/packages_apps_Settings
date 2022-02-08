@@ -11,4 +11,7 @@
     <!-- Cardinal Keeper -->
     <string name="maintainer">Cardinal Keeper</string>
 
+    <!-- AOSP Revision -->
+    <string name="aosp_revision">AOSP Revision</string>
+
 </resources>

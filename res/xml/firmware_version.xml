@@ -36,6 +36,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- AOSP Revision -->
+    <Preference
+        android:key="aosp_version"
+        android:title="@string/aosp_revision"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.aospVersionPreferenceController"/>
+
     <!-- Cardinal version -->
     <Preference
         android:key="cardinal_version"
