@@ -54,14 +54,18 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt",
-           "Cardinalery/src/**/*.java",
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+        "src-cardinalui/**/*.java",
+        "Cardinalery/src/**/*.java",
     ],
     resource_dirs: [
         "res",
         "res-export", // for external usage
+        "res-cardinalui",
         "res-product",
-	"Cardinalery/res",
+	    "Cardinalery/res",
     ],
     aaptflags: ["--extra-packages org.cardinalery"],
     static_libs: [
@@ -164,7 +168,7 @@ filegroup {
 // separately for different modules.
 filegroup {
     name: "Settings_srcs",
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt", "src-cardinalui/**/*.java"],
 }
 
 // Deprecated. Do not depend on this, only depend on Settings-core, and its manifest is also

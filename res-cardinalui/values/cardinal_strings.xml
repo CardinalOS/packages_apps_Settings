@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 CardinalOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- CardinalOS version -->
+    <string name="cardinal_version">CardinalOS version</string>
+
+    <!-- Cardinal Keeper -->
+    <string name="maintainer">Cardinal Keeper</string>
+
+    <!-- Cardinalery -->
+    <string name="cardinalery_dashboard_title">Cardinalery</string>
+    <string name="cardinalery_dashboard_summary">Additional customizations</string>
+
+    <!-- AOSP Revision -->
+    <string name="aosp_revision">AOSP Revision</string>
+
+    <!-- CardinalOS Dashboard -->
+    <string name="cardinal_dashboard_device">About phone</string>
+    <string name="cardinal_dashboard_account">Account</string>
+    <string name="cardinal_dashboard_network">Internet</string>
+    <string name="cardinal_dashboard_conectivity">Connectivity</string>    
+    <string name="cardinal_dashboard_display">Display</string>
+    <string name="cardinal_dashboard_battery">Battery</string>
+    <string name="cardinal_dashboard_sound">Sound</string>
+    <string name="cardinal_dashboard_apps">Apps</string>
+    <string name="cardinal_dashboard_notif">Notifications</string>
+    <string name="cardinal_dashboard_storage">Storage</string>
+    <string name="cardinal_dashboard_privacy">Privacy</string>    
+    <string name="cardinal_dashboard_location">Location</string>
+    <string name="cardinal_dashboard_security">Security</string>
+    <string name="cardinal_dashboard_accessibility">Accessibility</string>
+    <string name="cardinal_dashboard_system">Other</string>    
+    <string name="cardinal_dashboard_support">Support</string>
+
+    <!-- Dashboard categories -->
+    <string name="cardinal_dashboard_updates">System Updates</string>
+    <string name="cardinal_updates_status_updated">No new updates</string>
+    <string name="cardinal_updates_status_new">New update available</string>
+
+    <string name="top_level_connectivity">Connectivity</string>
+    <string name="top_level_personalize">Personalize</string>
+    <string name="top_level_security" translatable="false">@string/security_settings_title</string>
+    <string name="top_level_others">Others</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+
+</resources>

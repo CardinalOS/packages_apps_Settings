@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 CardinalOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Text Styles -->
+    <style name="cardinalTextPrimary">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
+    <style name="cardinalTextPrimaryMedium" parent="cardinalTextPrimary">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="cardinalTextSecondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <!-- Preferences -->
+
+    <!-- General -->
+    <style name="cardinalPreferenceBase">
+        <item name="android:layout_marginStart">@dimen/cardinal_pref_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/cardinal_pref_horizontal_padding</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="cardinalPreferenceTop" parent="cardinalPreferenceBase">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@drawable/cardinal_preference_background_top</item>
+    </style>
+
+    <style name="cardinalPreferenceMiddle" parent="cardinalPreferenceBase">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:background">@drawable/cardinal_preference_background_middle</item>
+    </style>
+
+    <style name="cardinalPreferenceBottom" parent="cardinalPreferenceBase">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/cardinal_preference_background_bottom</item>
+    </style>
+
+    <style name="cardinalPreferenceFull" parent="cardinalPreferenceBase">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/cardinal_preference_background_full</item>
+    </style>
+
+    <style name="cardinalPreferenceFullAccent" parent="cardinalPreferenceBase">
+        <item name="android:layout_marginTop">@dimen/cardinal_pref_horizontal_padding</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/cardinal_preference_background_full_accent</item>
+    </style>
+
+    <!-- Dashboard -->
+    <style name="cardinalDashboardPreferenceTop" parent="cardinalPreferenceTop">
+        <item name="android:layout_marginTop">@dimen/cardinal_pref_horizontal_padding</item>
+    </style>
+
+    <style name="cardinalDashboardPreferenceBottom" parent="cardinalPreferenceBottom">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="cardinalDashboardPreferenceFull" parent="cardinalPreferenceFull">
+        <item name="android:layout_marginTop">@dimen/cardinal_pref_horizontal_padding</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="cardinalDashboardPreferenceFullAccent" parent="cardinalDashboardPreferenceFull">
+        <item name="android:background">@drawable/cardinal_preference_background_full_accent</item>
+    </style>
+
+    <style name="cardinalDashboardPreferencePhone" parent="cardinalDashboardPreferenceTop">
+        <item name="android:background">@drawable/cardinal_preference_background_phone</item>
+    </style>
+
+</resources>
