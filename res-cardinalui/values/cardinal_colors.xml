@@ -10,4 +10,16 @@
      <color name="cardinal_background1">@android:color/system_neutral1_50</color>
      <color name="cardinal_background2">@android:color/system_neutral1_100</color>
      <color name="cardinal_background3">@android:color/system_accent1_400</color>
+
+     <!-- cardinal. Preference Card -->
+     <dimen name="cardinal_pref_card_radius">28dp</dimen>
+     <dimen name="cardinal_pref_card_radius-outer">5dp</dimen>
+     <dimen name="cardinal_pref_card_horizontal_padding">16dp</dimen>
+     <dimen name="cardinal_pref_card_horizontal_padding-negative">-16dp</dimen>
+
+     <!-- cardinal. Toolbar --> 
+     <dimen name="cardinal_toolbar_height">225dp</dimen>
+     <dimen name="cardinal_toolbar_expanded_title_margin_start">21dp</dimen>
+     <dimen name="cardinal_toolbar_expanded_title_margin_end">75dp</dimen>
+     
 </resources>

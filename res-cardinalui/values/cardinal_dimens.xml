@@ -8,4 +8,16 @@
      <dimen name="cardinal_radius_merge">5dp</dimen>
      <dimen name="cardinal_pref_horizontal_padding">16dp</dimen>
      <dimen name="cardinal_pref_horizontal_padding-negative">-16dp</dimen>
+
+     <!-- cardinal. Preference Card -->
+     <dimen name="cardinal_pref_card_radius">28dp</dimen>
+     <dimen name="cardinal_pref_card_radius-outer">5dp</dimen>
+     <dimen name="cardinal_pref_card_horizontal_padding">16dp</dimen>
+     <dimen name="cardinal_pref_card_horizontal_padding-negative">-16dp</dimen>
+
+     <!-- cardinal. Toolbar --> 
+     <dimen name="cardinal_toolbar_height">225dp</dimen>
+     <dimen name="cardinal_toolbar_expanded_title_margin_start">21dp</dimen>
+     <dimen name="cardinal_toolbar_expanded_title_margin_end">75dp</dimen>
+     
 </resources>
