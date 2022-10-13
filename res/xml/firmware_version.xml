@@ -38,14 +38,6 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.aospVersionPreferenceController"/>
 
-    <!-- Cardinal version -->
-    <Preference
-        android:key="cardinal_version"
-        android:title="@string/cardinal_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.CardinalVersionPreferenceController"/>
-
     <!-- Security patch -->
     <Preference
         android:key="security_key"
@@ -60,14 +52,6 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/ -->
-
-    <!-- Cardinal Keeper -->
-    <Preference
-        android:key="maintainer"
-        android:title="@string/maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.CardinalKeeperPreferenceController"/>
 
     <!-- Baseband -->
     <Preference
