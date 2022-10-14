@@ -21,12 +21,6 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- CardinalOS logo -->
-    <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/cardinal_logo"
-        android:key="cardinal_logo"
-        android:selectable="false" />
-
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

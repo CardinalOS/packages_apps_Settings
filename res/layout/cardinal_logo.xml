@@ -3,18 +3,49 @@
      Copyright (C) 2023 CardinalOS
      SPDX-License-Identifier: Apache-2.0
 -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="center"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="8dp">
+    android:layout_marginHorizontal="24dp"
+    android:layout_marginVertical="20dp"
+    app:cardCornerRadius="22dp"
+    app:cardElevation="0dp">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@drawable/cardinalos_logo"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</LinearLayout>
+    <com.cardinal.widget.WallpaperBlurView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:elevation="0dp"
+            android:gravity="center"
+            android:orientation="vertical" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.4"
+            android:src="@drawable/scrim"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingVertical="60dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="50dp"
+                android:src="@drawable/cardinalos_logo"
+                android:tint="@android:color/system_accent1_200"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>
