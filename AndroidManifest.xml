@@ -4968,6 +4968,19 @@
             android:authorities="${applicationId}.androidx-startup"
             tools:node="remove" />
 
+        <!-- Cardinalery -->
+        <activity android:name=".Settings$CardinaleryActivity"
+            android:label="@string/cardinalery_dashboard_title"
+            android:icon="@drawable/ic_settings_cardinalery"
+            android:exported="true"
+            android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="org.cardinalery.Cardinalery" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

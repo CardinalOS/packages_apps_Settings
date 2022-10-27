@@ -11,6 +11,10 @@
     <!-- Cardinal Keeper -->
     <string name="maintainer">Cardinal Keeper</string>
 
+    <!-- Cardinalery -->
+    <string name="cardinalery_dashboard_tittle">Cardinalery</string>
+    <string name="cardinalery_dashnoard_summary">Additional customizations</string>
+
     <!-- AOSP Revision -->
     <string name="aosp_revision">AOSP Revision</string>
 

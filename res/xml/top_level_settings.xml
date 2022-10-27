@@ -117,6 +117,14 @@
         settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="org.cardinalery.Cardinalery"
+        android:icon="@drawable/ic_settings_cardinalery"
+        android:key="top_level_cardinalery"
+        android:order="-65"
+        android:title="@string/cardinalery_dashboard_title"
+        android:summary="@string/cardinalery_dashboard_summary"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
         android:icon="@drawable/ic_settings_accessibility"
         android:key="top_level_accessibility"

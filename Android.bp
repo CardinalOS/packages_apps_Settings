@@ -54,12 +54,16 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt",
+           "Cardinalery/src/**/*.java",
+    ],
     resource_dirs: [
         "res",
         "res-export", // for external usage
         "res-product",
+	"Cardinalery/res",
     ],
+    aaptflags: ["--extra-packages org.cardinalery"],
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
         "androidx.slice_slice-builders",
@@ -104,6 +108,7 @@ android_library {
         "Settings-change-ids",
         "androidx.room_room-runtime",
         "SystemUIUnfoldLib",
+        "kotlin-stdlib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
